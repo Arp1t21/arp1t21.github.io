@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Arkhip';
+    src: url('arkhip.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arkhip', sans-serif;
+}
+
+header {
+    background-color: #353535;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 60px);
+}
+
+.text-section {
+    flex: 0 0 60%; 
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.article_2 {
+    margin: 0;
+    padding-top: 1em;
+}
+
+.footer {
+    margin: 0;
+    padding-top: 2em
+}
+
+.image-section {
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-section {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
